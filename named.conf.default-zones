@@ -28,8 +28,4 @@ zone "255.in-addr.arpa" {
 };
 
 
-zone "lionel-salas.local" {
-        type master;
-        file "/etc/bind/db.lionel.salas.local";
-};
 

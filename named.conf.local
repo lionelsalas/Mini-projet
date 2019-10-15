@@ -6,3 +6,13 @@
 // organization
 //include "/etc/bind/zones.rfc1918";
 
+
+zone "lionel-salas.local" {
+        type master;
+        file "/etc/bind/db.lionel.salas.local";
+};
+
+zone "17.172.in-addr.arpa"{
+	type master;
+	file "/etc/bind/db.172.17";
+};

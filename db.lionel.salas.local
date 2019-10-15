@@ -1,12 +1,10 @@
-
-$TTL	604800
-@	IN	SOA	203-13.lionel-salas.local lionel.salas.iutbeziers.fr. (
-	 	     2019091701		; Serial
+@	IN	SOA	lionel.lionel-salas.local. lionel.salas.iutbeziers.fr. (
+		     2019091701		; Serial
 			 604800		; Refresh
 			  86400		; Retry
 			2419200		; Expire
-			 604800 )	; Negative Cache TTL
-;
+			 604800		; Negative Cache TTL
+);
 $ORIGIN lionel-salas.local.
-	IN	NS	203-13
-203-13	IN	A 	10.203.13.1
+@	IN	NS	lionel
+lionel	IN	A 	172.17.0.2

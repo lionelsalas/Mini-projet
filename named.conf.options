@@ -11,7 +11,8 @@ options {
 	// the all-0's placeholder.
 
 	forwarders {
-		10.255.255.1;
+		10.206.222.222;
+
 	 };
 
 	//========================================================================
@@ -21,6 +22,6 @@ options {
 	dnssec-validation auto;
 
 	auth-nxdomain no;    # conform to RFC1035
-	listen-on-v4 {any;} ;
+//	listen-on-v4 {any;} ;
 };
 
