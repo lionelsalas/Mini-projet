@@ -1,0 +1,13 @@
+$TTL 1h;
+@	IN	SOA	lionel.lionel-salas.local lionel.salas.iutbeziers.fr. (
+		     2019091701		; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			 604800		; Negative Cache TTL
+);
+@	IN	NS	lionel.lionel-salas.local.
+@	IN	NS	mail.lionel-salas.local.
+$ORIGIN 214.10.in-addr.arpa.
+25.6	IN	PTR	lionel.lionel-salas.local.
+25.6	IN	PTR	mail.lionel-salas.local.

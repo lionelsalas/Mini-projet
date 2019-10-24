@@ -7,4 +7,11 @@
 );
 $ORIGIN lionel-salas.local.
 @	IN	NS	lionel
-lionel	IN	A 	172.17.0.2
+lionel	IN	A	10.214.6.25
+mail	IN	A	10.214.6.25
+www	IN	A	10.214.6.25
+gateway	IN	A	10.214.255.254
+pop3	IN	CNAME	lionel
+imap	IN	CNAME	lionel
+smtp	IN	CNAME	lionel
+lionel-salas.local.	IN	MX	10	mail.lionel-salas.local.
